@@ -1,10 +1,13 @@
 # Gradientia - a new-tab-visualizer
 
-a minimalist, shader-driven new tab override for chrome.
+a minimalist, shader-driven new tab override for chrome
+
+![image](https://github.com/user-attachments/assets/f9c39b92-cada-4863-a74d-6e321249f302)
+
 
 ## ✨ features
 
-- fullscreen animated webgl background (with noise & color params)
+- fullscreen animated webgl background (with noise & color params), reacts to mouse position
 - dat.gui-based live customization
 - google search bar, center-aligned
 - (optional) quicklink panel for frequented sites
@@ -38,5 +41,6 @@ I wanted to replace Brave's cluttery default view with something snazzy and pret
 - persistent settings via `chrome.storage.local`
 - theme toggle (light / dark modes for gui / input)
 - animated quicklinks w/ svg icons?
-- lil easter eggs :~)
+- easter eggs?
+- more content?
 - shipping?
