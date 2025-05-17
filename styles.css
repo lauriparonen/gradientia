@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+} 
+
+.quick-links {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.quick-links a {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+}
+
+.google-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.google-search input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.google-search input:focus {
+  outline: none;
+}
+
+.google-search input:focus {
+  outline: none;
+}
